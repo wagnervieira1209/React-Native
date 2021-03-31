@@ -1,10 +1,9 @@
 import React from 'react'
 import { SafeAreaView, StyleSheet } from 'react-native'
-import FlexBoxV4 from './components/layout/FlexBoxV4'
-
-
+import Mega from './components/mega/Mega'
 
 /*
+import FlexBoxV4 from './components/layout/FlexBoxV4'
 import FlexBoxV3 from './components/layout/FlexBoxV3'
 import FlexBoxV2 from './components/layout/FlexBoxV2';
 import FlexBoxV1 from './components/layout/FlexBoxV1'
@@ -31,8 +30,9 @@ import Primeiro from './components/Primeiro'
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <FlexBoxV4 />        
+        <Mega /> 
         {/*
+        <FlexBoxV4 />        
         <FlexBoxV3/>
         <FlexBoxV2 />
         <FlexBoxV1 />
